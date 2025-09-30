@@ -30,3 +30,60 @@ body{
     display: block;
     max-width: 210px;
 }
+.description_container{
+    display: flex;
+    padding-top: 105px;
+    padding-bottom: 75px;
+    justify-content: center;
+}
+.text_holder{
+    max-width: 1200px;
+}
+.text_container{
+    box-sizing: border-box;
+    max-width: 760px;
+    margin: 0px auto;
+}
+.description_title{
+    text-align: center;
+    font-family: TildaSans;
+    font-size: 52px;
+    font-weight: 600;
+}
+.description{
+    padding-top: 41px;
+    text-align: center;
+    font-family: TildaSans;
+    font-size: 24px;
+    font-weight: 300;
+}
+.services_list{
+    padding-top: 8px;
+    padding-bottom: 6px;
+    position: relative;
+}
+.services_header{
+    font-family: TildaSans;
+    cursor: pointer;
+    font-size: 32px;
+    line-height: 1.5;
+    margin-left: 1vw;
+}
+.service_text{
+    font-family: TildaSans;
+    cursor: default;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 3vw;
+    overflow: hidden;
+}
+.hidden{
+    height: 0px;
+    transition: 1s;
+}
+.visible{
+    transition: 1s;
+}
+.services_list_item{
+    z-index: 99;
+}

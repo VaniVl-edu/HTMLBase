@@ -5,18 +5,119 @@
     <title>Test html page</title>
     <link rel="stylesheet" href="sources/somestyle.css">
     <link rel="stylesheet" href="sources/fonts-tildasans.css">
+    <script src="sources/somescript.js"></script>
 </head>
 <body>
-    <div class="header">
-        <div class="href_holder" style="text-align: left">
-            <a class="href_btn" data-href="#about">О нас</a>
-            <a class="href_btn" data-href="#services">Услуги</a>
+<div class="header">
+    <div class="href_holder" style="text-align: left">
+        <a class="href_btn" data-href="#about">О нас</a>
+        <a class="href_btn" data-href="#services">Услуги</a>
+    </div>
+    <img class="logo" src="sources/logo.png">
+    <div class="href_holder" style="text-align: right">
+        <a class="href_btn" data-href="#shedule">Запись</a>
+        <a class="href_btn" data-href="#contact">Контакты</a>
+    </div>
+</div>
+<div id="services" class="description_container">
+    <div class="text_holder">
+        <div class="text_holder" style="padding: 75px">
+            <div class="text_container description_title">Основные направления
+                деятельности
+            </div>
+            <div class="text_container description">
+                Мы предлагаем полный комплекс товаров, необходимых для обустройства
+                <br>
+                любого делового помещения - так называемый «офис под ключ».
+            </div>
         </div>
-        <img class="logo" src="sources/logo.png">
-        <div class="href_holder" style="text-align: right">
-            <a class="href_btn" data-href="#shedule">Запись</a>
-            <a class="href_btn" data-href="#contact">Контакты</a>
+        <div class="services_list">
+            <div class="services_list_item">
+                <strong class="services_header">Исследования компании</strong>
+                <div class="service_text">
+                    Проведём технический анализ разрабатываемого программного<br>
+                    обеспечения, проинспектируем код и снимем<br>
+                    формальные метрики. Подготовим подробный отчёт о программе<br>
+                    и её компонентах.<br>
+                </div>
+            </div>
+            <div class="services_list_item">
+                <strong class="services_header">Разработка ПО</strong>
+                <div class="service_text">
+                    Предоставляем полный цикл по разработке и внедрению ПО — от<br>
+                    предпроектного обследования и разработки<br>
+                    архитектуры ПО до постпроектного сопровождения.<br>
+                </div>
+            </div>
+            <div class="services_list_item">
+                <strong class="services_header">Аппаратное обслуживание</strong>
+                <div class="service_text">
+                    • Компьютерная диагностика – стоимость услуги от 1000 рублей <br>
+                    • Ремонт электроники любых видов сложности <br>
+                    • Проверка наличия утечки электричества <br>
+                    • Ремонт любых ЭБУ <br>
+                    • Ремонт блоков ABS <br>
+                    • Обнуление блоков SRS <br>
+                    • Корректировка показаний аппаратных датчиков <br>
+                    • Сброс сервисных интервалов <br>
+                    • Адаптация электронных блоков, датчиков и т.д. <br>
+                </div>
+            </div>
+            <div class="services_list_item">
+                <strong class="services_header">Программное обеспечение</strong>
+                <div class="service_text">
+                    Наша компания обладает большим опытом поставок лицензионного программного обеспечения<br>
+                    и предлагает широчайший спектр программных продуктов.<br>
+                    У нас вы можете приобрести программное обеспечение для самых разных сфер применения:<br>
+                    операционные системы,<br>
+                    прикладное ПО, <br>
+                    графическое ПО,<br>
+                    виртуализация,<br>
+                    системы автоматизации, САПР,<br>
+                    антивирусы и т.д.<br>
+                    Сертифицированное партнерство и многолетние деловые связи с производителями и дистрибьюторами<br>
+                    позволяют осуществлять профессиональный и индивидуальный подбор решений для каждого обратившегося
+                    клиента.<br>
+                </div>
+            </div>
+            <div class="services_list_item">
+                <strong class="services_header">Бизнес-консалтинг</strong>
+                <div class="service_text">
+                    Проводим консультации по приобретению и внедрению<br>
+                    нового программного обеспечения, в том числе по вопросам<br>
+                    лицензирования и выбора бесплатных решений.<br>
+                </div>
+            </div>
+            <div class="services_list_item">
+                <strong class="services_header">Финансы</strong>
+                <div class="service_text">
+                    Оцениваем адекватность существующих операционных расходов,<br>
+                    анализируем текущее состояние оборудования и программного обеспечения,<br>
+                    оцениваем эксплуатационные риски,<br>
+                    рассчитываем необходимые инвестиции в обновление и развитие ИТ‑систем,<br>
+                    делаем расходы на ИТ в компании прозрачными.<br>
+                </div>
+            </div>
+            <div class="services_list_item">
+                <strong class="services_header">Учет</strong>
+                <div class="service_text">
+                    Проводим инвентаризацию используемого оборудования и программного обеспечения,<br>
+                    ревизию бизнес-процессов предприятия и анализ эффективности<br>
+                    их поддержки со стороны ИТ-подразделения,<br>
+                    аудит резервного копирования,<br>
+                    инфраструктуры поддержки пользователей.<br>
+                </div>
+            </div>
+            <div class="services_list_item">
+                <strong class="services_header">Бизнес-решения</strong>
+                <div class="service_text">
+                    Определяем план действий по развитию ИТ,<br>
+                    направленных на достижение стратегических целей <br>
+                    и задач бизнеса.<br>
+                </div>
+            </div>
         </div>
     </div>
+</div>
 </body>
 </html>
